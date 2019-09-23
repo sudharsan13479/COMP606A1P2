@@ -1,0 +1,22 @@
+
+create database sample ; 
+
+CREATE TABLE login
+(
+ID int NOT NULL AUTO_INCREMENT,
+uname varchar(255) NOT NULL,
+pwd varchar(255),
+PRIMARY KEY (ID)
+);
+
+CREATE TABLE User
+(
+User_AutoID int NOT NULL AUTO_INCREMENT,
+User_Name varchar(255) NOT NULL,
+Age varchar(255),
+Address varchar(255),
+City varchar(255),
+uname varchar(255),
+pwd varchar(255),
+PRIMARY KEY (User_AutoID)
+);
